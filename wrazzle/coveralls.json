@@ -1,0 +1,11 @@
+{
+    "coverage_options": {
+        "minimum_coverage": 70
+    },
+    "skip_files": [
+        "lib/wrazzle/game_components/tile.ex",
+        "lib/wrazzle/game_components/tile_bag.ex",
+        "lib/wrazzle_web/components",
+        "test/support/"
+    ]
+}

@@ -1,0 +1,10 @@
+version: 2
+updates:
+
+  # Maintain dependencies for mix deps
+  - package-ecosystem: "mix"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "14:00"
