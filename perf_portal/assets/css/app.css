@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+h1 {
+    font-size: 22px;
+}
+
+.tooltip {
+    display: inline;
+    position: absolute;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+  
+a:visited {
+    color: purple;
+}
+  
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(91, 91, 8);
+}

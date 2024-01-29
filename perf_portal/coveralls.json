@@ -1,0 +1,21 @@
+{
+    "coverage_options:": {
+        "minimum_coverage": 70
+    },
+    "skip_files": [
+        "lib/perf_portal.ex",
+        "lib/perf_portal/mailer.ex",
+        "lib/perf_portal/repo.ex",
+        "lib/perf_portal/schema.ex",
+        "lib/perf_portal_web/api_spec.ex",
+        "lib/perf_portal_web/controllers/page_controller.ex",
+        "lib/perf_portal_web/controllers/page_html.ex",
+        "lib/perf_portal_web/components",
+        "lib/perf_portal_web/endpoint.ex",
+        "lib/perf_portal_web/gettext.ex",
+        "lib/perf_portal_web/router.ex",
+        "lib/perf_portal_web/schemas",
+        "lib/perf_portal_web/telemetry.ex",
+        "test/support"
+    ]
+}

@@ -1,0 +1,11 @@
+# version: 2
+# updates:
+#   - package-ecosystem: "mix"
+#     directory: "/"
+#     schedule:
+#       interval: "weekly"
+#       day: "monday"
+#       time: "14:00"
+#     commit-message:
+#       prefix: "build(deps)"
+#       include: "scope"

@@ -1,0 +1,7 @@
+<h1><%= @well.name %></h1>
+<div id="well-overview">
+  <div phx-update="ignore" id="well-overview-chart-wrapper">
+    <button type="button" phx-click="reset-zoom">RESET</button>
+    <div id="well-overview-chart" phx-hook="WellOverviewChart"></div>
+  </div>
+</div>
